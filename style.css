@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background: beige;
+}
+
+nav {
+    display: flex;
+    background: grey;
+}
+
+nav p {
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.works-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.secondary-link {
+    display: flex;
+    flex-grow: 1;
+}
